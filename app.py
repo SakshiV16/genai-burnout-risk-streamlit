@@ -163,7 +163,7 @@ def score_all_models(X, y_true):
 # --------------------------------------------------------------------------
 st.title("GenAI Usage & Burnout Risk – Classification Models")
 st.caption("Predict a student's burnout risk level (High / Low / Medium) from GenAI usage, study "
-           "habits and academic features. Models are pre-trained and are **not** retrained on your upload.")
+           "habits and academic features.")
 
 with st.sidebar:
     st.header("Controls")
